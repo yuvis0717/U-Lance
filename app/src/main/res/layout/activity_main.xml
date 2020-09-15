@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Self-Lance"
+                android:text="@string/self_lance"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
@@ -41,7 +41,7 @@
         android:layout_width="234dp"
         android:layout_height="52dp"
         android:background="@drawable/round_corners"
-        android:text="Looking For A Job"
+        android:text="@string/looking_for_a_job"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +55,7 @@
         android:layout_width="235dp"
         android:layout_height="52dp"
         android:background="@drawable/round_corners"
-        android:text="Hire a freelancer"
+        android:text="@string/hire_a_freelancer"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,6 +73,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.188"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
