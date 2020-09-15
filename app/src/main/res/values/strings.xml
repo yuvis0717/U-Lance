@@ -15,4 +15,6 @@
     <string name="hint_last_name">Last Name</string>
     <string name="hint_user_name">User Name</string>
     <string name="btn_sign_up">Sign Up</string>
+    <string name="hire_freelance_title">Hire A FreeLancer</string>
+    <string name="name">Name</string>
 </resources>
